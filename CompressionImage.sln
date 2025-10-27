@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionImage", "CompressionImage.csproj", "{90BA225B-683C-458B-BAB1-824CBB8623E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompressor.Logic", "ImageCompressor.Logic\ImageCompressor.Logic.csproj", "{DE33C191-6925-487D-878D-60BCB77BFF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCompressor.UI", "ImageCompressor.UI\ImageCompressor.UI.csproj", "{CD3E9CE7-A1CB-4572-8C98-574949B1FB40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90BA225B-683C-458B-BAB1-824CBB8623E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90BA225B-683C-458B-BAB1-824CBB8623E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90BA225B-683C-458B-BAB1-824CBB8623E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90BA225B-683C-458B-BAB1-824CBB8623E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE33C191-6925-487D-878D-60BCB77BFF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE33C191-6925-487D-878D-60BCB77BFF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE33C191-6925-487D-878D-60BCB77BFF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE33C191-6925-487D-878D-60BCB77BFF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3E9CE7-A1CB-4572-8C98-574949B1FB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3E9CE7-A1CB-4572-8C98-574949B1FB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3E9CE7-A1CB-4572-8C98-574949B1FB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3E9CE7-A1CB-4572-8C98-574949B1FB40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
